@@ -1,0 +1,167 @@
+baseURL = "/"
+title = "Goal: Hydration"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+paginate = "7"
+theme = "Spectral"
+
+[params]
+fancyTitle = '<img height="256" src="/img/logo.svg" alt="Logo"/><br />Goal: Hydration' # title for frontpage, may include image
+copyright = "Goal Hydration"
+description = 'Providing hydration education and high quality water bottles to those in need.'
+startbuttonText = "Donate"
+startbuttonLink = "#"
+body_is_markdown = true
+favicon = "favicon.png"
+#custom_css = "foo.css"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+[[params.menu.main]]
+url = 'gallery'
+title = "Gallery"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one]
+enable = true
+title = 'Our Mission: Fighting Spiritual and Physical De-hydration'
+body = 'Jesus stood and said in a loud voice, "Let anyone who is thirsty come to me and drink. Whoever believes in me, as Scripture has said, rivers of living water will flow from within them." John 7:37-38'
+
+[[params.one.icon]]
+icon = "solid fa-cross"
+style = "1"
+label = "Lorem"
+
+[[params.one.icon]]
+icon = "fa-heart"
+style = "2"
+label = "Ipsum"
+
+[[params.one.icon]]
+icon = "solid fa-glass-water"
+style = "3"
+label = "Dolor"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "img/water_bottles_2.jpg"
+title = 'Mission 1'
+body = 'We are sending $1000 of Takeya stainless steel water bottles to the international missions organization, Global Health Outreach, so that they may be distributed to the people in Guatemala City, Guatemala in May 2021 as part of a medical missions trip.'
+
+[[params.two.section]]
+img = "img/educational_programming.jpg"
+title = 'Mission 2'
+body = 'We have partnered with a student organization that serves and mentors at-risk youth in Columbus to create a week of programming centered around nutrition education with an emphasis on hydration. We hope to impart nutritional knowledge and a sense of environmental awareness in the children and students.'
+
+[[params.two.section]]
+img = "img/shelter_water_bottles.jpg"
+title = 'Mission 3'
+body = 'Goal: Hydration is gifting 50 Takeya stainless steel water bottles and 100 information cards to Lutheran Social Services Central Ohio to be a part of summer kits provided to their shelter residents.'
+
+[[params.two.section]]
+img = "img/clean_water.jpg"
+title = 'Mission 4'
+body = 'Due to the pandemic, we will be combining Mission 1 (bringing 34 water bottles to Guatemala) with bringing 37 water bottles and various items needed to Guatemala in March 2023 as part of a medical missions trip'
+
+[params.three]
+enable = true
+title = 'About Us'
+body = 'In 2020, our founder went on a medical missions trip to Guatemla and saw many cases of negative health effects resulting from inadequate hydration. Thus, Goal: Hydration was created to provid proper education and high-quality reusable water bottles to those in need.'
+
+[[params.three.feature]]
+icon = "solid fa-earth-americas"
+title = "Our Outreach"
+body = "Serving individuals and non-profits in Escuintla, Guatemala and Columbus, Ohio"
+
+[[params.three.feature]]
+icon = "solid fa-hand-holding-droplet"
+title = "Our Services"
+body = "Providing high-quality reusable water bottles and hydration education materials"
+
+[[params.three.feature]]
+icon = "solid fa-hand-holding-hand"
+title = "Our Partners"
+body = "Worked with Global Health Outreach, LSS Faith Mission Shelter, and Takeya USA"
+
+[[params.three.feature]]
+icon = "solid fa-location-pin"
+title = "Our Beginning"
+body = "Founded in October 2020 by Sarah Light, a native of Virginia, and a graduate of The Ohio State University"
+
+[params.cta]
+enable = true
+title = "Everyone Should Hydrate"
+body = "Our goal is to educate and equip others to consume the adequate daily intake of water."
+
+[[params.cta.link]]
+href = "#"
+text = "Donate"
+special = true
+
+[[params.cta.link]]
+href = "#"
+text = "Gallery"
+special = false
+
+[params.contact]
+enable = true
+title = "Contact"
+body = "Leave us a message."
+phone = "+49 (0) 030 000 000"
+address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+email = "nospam@example.com"
+subject = "New Submission!"
+formspree_form_id = "example_invalid"
+
+[params.social]
+twitter = ""
+mastodon = ""
+github = ""
+facebook = ""
+youtube = ""
+instagram = ""
+dribble = ""
+
+# module specific options
+[module]
+    [[module.imports]]
+        path = "github.com/bep/gallerydeluxe"
+
+[params.gallerydeluxe]
+    # Shuffle the images in the gallery to give the impression of a new gallery each time.
+    shuffle = false
+
+    # Reverse the order of the images in the gallery.
+    reverse = false
+
+    # Enable Exif data in the gallery.
+    # See https://gohugo.io/content-management/image-processing/#exif-data for how to filter tags.
+    enable_exif = false
+
+[imaging]
+    resampleFilter = "CatmullRom"
+    quality        = 71
+    anchor         = "smart"
+    [imaging.exif]
+        disableDate    = false
+        disableLatLong = true
+        includeFields  = 'Artist|LensModel|FNumber|ExposureTime'
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[languages.de]
+weight = 10
+languageName = "Deutsch"
