@@ -12,7 +12,7 @@ startbuttonText = "Donate"
 startbuttonLink = "#"
 body_is_markdown = true
 favicon = "favicon.png"
-#custom_css = "foo.css"
+custom_css = ["css/modifications.css"]
 #images = ["path_to_social_image_for_link_previews.jpg"]
 
 [[params.menu.main]]
