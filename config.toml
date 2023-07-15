@@ -71,6 +71,11 @@ img = "img/clean_water.jpg"
 title = 'Mission 4'
 body = 'Due to the pandemic, we will be combining Mission 1 (bringing 34 water bottles to Guatemala) with bringing 37 water bottles and various items needed to Guatemala in March 2023 as part of a medical missions trip'
 
+[[params.two.section]]
+img = "img/June 2023 Me With Bottles.jpg"
+title = 'Mission 5'
+body = 'We went to Zone 7 in Guatemala City, Guatemala to partner with a local church and deliver 42 water bottles and 200 information cards while providing care to over 700 patients through a medical mission trip organized by Global Health Organization'
+
 [params.three]
 enable = true
 title = 'About Us'
