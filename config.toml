@@ -8,8 +8,6 @@ paginate = "7"
 fancyTitle = '<img height="256" src="/img/logo.svg" alt="Logo"/><br />Goal: Hydration' # title for frontpage, may include image
 copyright = "Goal Hydration"
 description = 'Providing hydration education and high quality water bottles to those in need.'
-startbuttonText = "Donate"
-startbuttonLink = "#"
 body_is_markdown = true
 favicon = "favicon.png"
 custom_css = "css/modifications.css"
