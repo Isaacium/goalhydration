@@ -105,7 +105,7 @@ title = "Everyone Should Hydrate"
 body = "Our goal is to educate and equip others to consume the adequate daily intake of water."
 
 [[params.cta.link]]
-href = "#"
+href = "https://venmo.com/u/goalhydration"
 text = "Donate"
 special = true
 
@@ -120,7 +120,7 @@ title = "Contact"
 body = "Leave us a message."
 phone = "+49 (0) 030 000 000"
 address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
-email = "nospam@example.com"
+email = "isaacium119@gmail.com"
 subject = "New Submission!"
 formspree_form_id = "example_invalid"
 
