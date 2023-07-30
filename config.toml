@@ -122,7 +122,7 @@ phone = "+49 (0) 030 000 000"
 address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
 email = "swlight7@gmail.com"
 subject = "New Submission!"
-formsubmit_form_id = "example_invalid"
+formsubmit_form_id = "swlight7@gmail.com"
 
 [params.social]
 twitter = ""
